@@ -1,0 +1,22 @@
+ # --- Constante elástica (em N/m) --- #
+ k = 0.3
+
+ # --- Massa de um vértice (em kg) --- #
+ m = 0.05
+
+ # --- Aceleração da gravidade (em m/s^2) --- #
+ g = 9.789
+
+ # --- Fator de amortecimento --- #
+ d = 0.2
+
+ # --- Lista de vértices-âncora (separados por vírgula) --- #
+ # Formato: i, j, k, ... , n #
+ # Nenhum vértice-âncora: NONE #
+ anchors = 1, 44
+
+ # --- Lista de forças externas (em N)                --- #
+ # Formato: (x, y, z), (x, y, z), ... , (x, y, z) #
+ # Nenhuma força externa: NONE #
+ forces = NONE
+ 

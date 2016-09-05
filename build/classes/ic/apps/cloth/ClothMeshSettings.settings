@@ -1,0 +1,76 @@
+  ###
+ # Processamento de malhas poligonais
+ # 
+ # Pós Graduação IC-UFF 2012.1
+ # Configuração da Aplicação
+ # 
+ # @author Prof. Marcos Lage <mlage@ic.uff.br>
+ ##
+ 
+ # --- Arquivo .off do modelo 3D --- #
+ # Opções
+ # /Users/mlage/Dropbox/Dev/Models/off/armadillo2Col.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bimba_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bimba_tri.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bunny_tri.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bunny3k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bunny5k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bunny11K.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bunny22k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/cad1.off
+ # /Users/mlage/Dropbox/Dev/Models/off/cad2.off
+ # /Users/mlage/Dropbox/Dev/Models/off/cad3.off
+ # /Users/mlage/Dropbox/Dev/Models/off/camilleHand_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/cilindros_bx.off
+ # /Users/mlage/Dropbox/Dev/Models/off/cilindros.off
+ # /Users/mlage/Dropbox/Dev/Models/off/elephant_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/fme.off
+ # /Users/mlage/Dropbox/Dev/Models/off/gargoyle_density_final.off
+ # /Users/mlage/Dropbox/Dev/Models/off/gargoyle_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/gargoyle2k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/gargoyle4k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/gargoyle11k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/gargoyleCol.off
+ # /Users/mlage/Dropbox/Dev/Models/off/hand_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/igea_semiregular.off
+ # /Users/mlage/Dropbox/Dev/Models/off/igea3K.off
+ # /Users/mlage/Dropbox/Dev/Models/off/igea12k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/kitten_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/kitten_tri.off
+ # /Users/mlage/Dropbox/Dev/Models/off/moai3.3k_creases.off
+ # /Users/mlage/Dropbox/Dev/Models/off/moai3.3k_no_creases.off
+ # /Users/mlage/Dropbox/Dev/Models/off/moai6k_creases.off
+ # /Users/mlage/Dropbox/Dev/Models/off/model.off
+ # /Users/mlage/Dropbox/Dev/Models/off/navio.off
+ # /Users/mlage/Dropbox/Dev/Models/off/navioHull.off
+ # /Users/mlage/Dropbox/Dev/Models/off/omotondo_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/pegaso_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/plane-sphere.off
+ # /Users/mlage/Dropbox/Dev/Models/off/rampant20k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/ramses_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/Star_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/tondo1k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/tondo2k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/tondo5k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/tondo10k.off
+ # /Users/mlage/Dropbox/Dev/Models/off/torso_quad.off
+ # /Users/mlage/Dropbox/Dev/Models/off/bimba_quad.off
+mfile = ./meshes/test.off
+
+ # --- Mapa de cores --- #
+ # Opcoes:
+ # MAP_CONSTANT, MAP_GRAYSCALE, MAP_BONE  , MAP_RAINBOW
+ # MAP_JET     , MAP_HOT      , MAP_COOL  , MAP_COOPER
+ # MAP_SPRING  , MAP_SUMMER   , MAP_AUTUMN, MAP_WINTER
+cmap = MAP_SPRING
+
+ # --- Máximo e Mínimo do Mapa de cores --- #
+cmapMin = -1.0
+cmapMax =  1.0
+
+ # --- Modo de renderização ---#
+ #Opcoes:
+ # Points
+ # Smooth
+ # Wireframe
+rmode = Smooth

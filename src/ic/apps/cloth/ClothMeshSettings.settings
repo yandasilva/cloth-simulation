@@ -1,0 +1,20 @@
+# --- Path to the 3D model's .off file --- #
+mfile = ./meshes/test.off
+
+# --- Color map --- #
+# Options:
+# MAP_CONSTANT, MAP_GRAYSCALE, MAP_BONE  , MAP_RAINBOW
+# MAP_JET     , MAP_HOT      , MAP_COOL  , MAP_COOPER
+# MAP_SPRING  , MAP_SUMMER   , MAP_AUTUMN, MAP_WINTER
+cmap = MAP_SPRING
+
+# --- Color map min and max --- #
+cmapMin = -1.0
+cmapMax =  1.0
+
+# --- Render mode ---#
+# Options:
+# Points
+# Smooth
+# Wireframe
+rmode = Smooth

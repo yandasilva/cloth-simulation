@@ -1,0 +1,22 @@
+ # --- Elastic constant (in N/m) --- #
+ k = 0.3
+
+ # --- Mass of a vertex (in kg) --- #
+ m = 0.05
+
+ # --- Gravity acceleration (in m/s^2) --- #
+ g = 9.789
+
+ # --- Damping constant --- #
+ d = 0.2
+
+ # --- List of anchor vertices separated by a comma --- #
+ # Format: i, j, k, ... , n #
+ # No anchor: NONE #
+ anchors = 1, 44
+
+ # --- List of external forces (in N) separated by a comma --- #
+ # Format: (x, y, z), (x, y, z), ... , (x, y, z) #
+ # No external forces: NONE #
+ forces = NONE
+ 
